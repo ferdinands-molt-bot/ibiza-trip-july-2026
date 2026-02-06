@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibiza Trip July 2026 🏖️ Ferdinand & Friend</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .card h2 {
+            color: #4a5568;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .emoji {
+            font-size: 1.5em;
+        }
+        
+        .price {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #e53e3e;
+            margin: 10px 0;
+        }
+        
+        .features {
+            list-style: none;
+            margin: 15px 0;
+        }
+        
+        .features li {
+            margin: 8px 0;
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 5px;
+            transition: transform 0.2s ease;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .budget-summary {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        
+        .budget-summary h2 {
+            margin-bottom: 20px;
+        }
+        
+        .total-cost {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        
+        .journey-timeline {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .timeline-item {
+            margin: 15px 0;
+            padding: 10px 0;
+        }
+        
+        .time {
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏖️ Ibiza Adventure July 2026</h1>
+            <p class="subtitle">Ferdinand & Friend • 2 Weeks of Paradise • Complete Trip Planning</p>
+        </header>
+
+        <div class="budget-summary">
+            <h2>💰 Total Budget Estimate</h2>
+            <div class="total-cost">~4000€ for 2 people</div>
+            <p>All-inclusive: Flights, accommodation, food, parties, boat rental & extras</p>
+        </div>
+
+        <div class="grid">
+            <!-- FLIGHTS -->
+            <div class="card">
+                <h2><span class="emoji">✈️</span>Flights</h2>
+                <div class="price">400-800€ (both ways, 2 people)</div>
+                <ul class="features">
+                    <li><strong>BEST:</strong> Vienna → Ibiza DIRECT (Ryanair)</li>
+                    <li><strong>Alternative:</strong> Bratislava → Ibiza (1 stop)</li>
+                    <li>Flight time: 2.5h direct / 4-6h with stops</li>
+                    <li>Book 3-4 months early for best prices</li>
+                </ul>
+                <a href="https://www.kayak.com/flight-routes/Vienna-Intl-VIE/Ibiza-IBZ" class="btn" target="_blank">Search Vienna Flights</a>
+                <a href="https://www.kiwi.com/en/cheap-flights/bratislava-slovakia/ibiza-spain/" class="btn" target="_blank">Search Bratislava Flights</a>
+            </div>
+
+            <!-- ACCOMMODATION -->
+            <div class="card">
+                <h2><span class="emoji">🏨</span>Accommodation</h2>
+                <div class="price">~1260€ (14 nights)</div>
+                <ul class="features">
+                    <li><strong>TOP CHOICE:</strong> THB Los Molinos - Adults Only</li>
+                    <li>✅ Twin beds, pool, sauna, spa, beachfront</li>
+                    <li>✅ Central Ibiza Town location</li>
+                    <li>✅ Walking distance to restaurants & port</li>
+                    <li>4-star rating, excellent reviews</li>
+                </ul>
+                <a href="https://www.thbhotels.com/en/hotel-los-molinos-ibiza/" class="btn" target="_blank">Hotel Website</a>
+                <a href="https://www.booking.com/hotel/es/los-molinos.html" class="btn" target="_blank">Book on Booking.com</a>
+            </div>
+
+            <!-- FESTIVALS -->
+            <div class="card">
+                <h2><span class="emoji">🎉</span>Festivals & Parties</h2>
+                <div class="price">~600€ (300€ per person)</div>
+                <ul class="features">
+                    <li><strong>David Guetta FMIF</strong> - Every Monday at Ushuaïa</li>
+                    <li><strong>Calvin Harris</strong> - Fridays + Tuesdays in July</li>
+                    <li>Hï Ibiza, Amnesia, Pacha events</li>
+                    <li>Boat parties around the island</li>
+                    <li>2 weeks = multiple legendary events!</li>
+                </ul>
+                <a href="https://ticketsibiza.com/dj/david-guetta/" class="btn" target="_blank">David Guetta Tickets</a>
+                <a href="https://www.theushuaiaexperience.com/" class="btn" target="_blank">Ushuaïa Events</a>
+            </div>
+
+            <!-- BOAT RENTAL -->
+            <div class="card">
+                <h2><span class="emoji">⛵</span>Boat Rental</h2>
+                <div class="price">~300€ (1-2 days)</div>
+                <ul class="features">
+                    <li>Small boat with your license ✅</li>
+                    <li>No-license boats also available</li>
+                    <li>Explore Es Vedrà, Cala Comte, hidden coves</li>
+                    <li>Day trip to Formentera</li>
+                    <li>Includes paddle board & snorkel gear</li>
+                </ul>
+                <a href="https://www.samboat.com/boat-rental/ibiza" class="btn" target="_blank">SamBoat Rentals</a>
+                <a href="https://www.getmyboat.com/boat-rental/Ibiza--Balearic-Islands--Spain/" class="btn" target="_blank">GetMyBoat Options</a>
+            </div>
+
+            <!-- TRANSPORT -->
+            <div class="card">
+                <h2><span class="emoji">🚌</span>Transport from Hajek</h2>
+                <div class="price">~120€ (60€ per person round trip)</div>
+                
+                <div class="journey-timeline">
+                    <h3>📍 Recommended Route: Via Vienna</h3>
+                    <div class="timeline-item">
+                        <span class="time">06:00</span> - Leave Hajek by local bus to Žilina
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">07:30</span> - Train Žilina → Vienna (4h, ~40€)
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">11:30</span> - Arrive Vienna, transfer to airport
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">15:00</span> - Flight Vienna → Ibiza (2.5h direct)
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">19:00</span> - Ibiza, here we come! 🏖️
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOD & DRINK -->
+            <div class="card">
+                <h2><span class="emoji">🍽️</span>Food & Drinks</h2>
+                <div class="price">~1000€ (food + alcohol)</div>
+                <ul class="features">
+                    <li><strong>Food:</strong> Mix of cooking & restaurants (~700€)</li>
+                    <li>Shop at Mercadona/Lidl for groceries</li>
+                    <li>Try local tapas & paella occasionally</li>
+                    <li><strong>Alcohol:</strong> Supermarket + bars (~300€)</li>
+                    <li>Pre-drink strategy to save at clubs</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ACTIVITIES -->
+        <div class="card" style="margin: 20px 0;">
+            <h2><span class="emoji">🏖️</span>Must-Do Activities & Places</h2>
+            <div class="grid" style="margin-top: 20px;">
+                <div>
+                    <h3>🌅 Beaches & Nature</h3>
+                    <ul class="features">
+                        <li>Cala Comte - Best sunset spot</li>
+                        <li>Playa d'en Bossa - Near Ushuaïa</li>
+                        <li>Es Vedrà - Mystical rock island</li>
+                        <li>Cala Vadella - Family-friendly</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>🏛️ Culture & Sightseeing</h3>
+                    <ul class="features">
+                        <li>Dalt Vila - UNESCO Old Town</li>
+                        <li>Ibiza Cathedral - Historic center</li>
+                        <li>San Antonio sunset strip</li>
+                        <li>Es Canar hippie market</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- FINAL TIPS -->
+        <div class="card" style="margin: 20px 0;">
+            <h2><span class="emoji">💡</span>Pro Tips for Your Trip</h2>
+            <div class="grid" style="margin-top: 20px;">
+                <div>
+                    <h3>💰 Money Saving</h3>
+                    <ul class="features">
+                        <li>Book flights 3-4 months early</li>
+                        <li>Hotel direct booking often cheaper</li>
+                        <li>Supermarket alcohol vs. bars</li>
+                        <li>Free events & beach days</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>🎉 Party Planning</h3>
+                    <ul class="features">
+                        <li>Monday: David Guetta at Ushuaïa</li>
+                        <li>Friday: Calvin Harris events</li>
+                        <li>Book tickets in advance</li>
+                        <li>Dress code: Smart casual</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- EMERGENCY CONTACT -->
+        <div class="budget-summary">
+            <h2>📞 Ready to Book?</h2>
+            <p>All research done, links provided, budget calculated!</p>
+            <p><strong>Next steps:</strong> Choose your 2-week July window, book flights first, then accommodation.</p>
+            <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
+                Page generated by Zara ⭐ - February 2026<br>
+                All prices are estimates based on 2026 research
+            </p>
+        </div>
+    </div>
+</body>
+</html>
