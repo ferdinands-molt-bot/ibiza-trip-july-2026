@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏖️ Ibiza Trip 14-28 Júl 2026 | Ferdinand + Kamarát</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .dates-highlight {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .card h2 {
+            color: #4a5568;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .emoji {
+            font-size: 1.5em;
+        }
+        
+        .price {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #e53e3e;
+            margin: 10px 0;
+        }
+        
+        .timeline {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .timeline-item {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .time {
+            font-weight: bold;
+            color: #667eea;
+            min-width: 60px;
+        }
+        
+        .route-detail {
+            flex: 1;
+            margin-left: 15px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 5px;
+            transition: transform 0.2s ease;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .btn-booking {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+        }
+        
+        .budget-summary {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        
+        .total-cost {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        
+        .features {
+            list-style: none;
+            margin: 15px 0;
+        }
+        
+        .features li {
+            margin: 8px 0;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .check {
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .timeline-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏖️ Ibiza Dobrodružstvo 2026</h1>
+            <p class="subtitle">Ferdinand + Kamarát • Kompletný plán výletu</p>
+            <div class="dates-highlight">
+                📅 KONKRÉTNE DÁTUMY: Pondelok 14. júl - Pondelok 28. júl 2026
+                <br>✈️ 14 dní raja na najlepšom ostrove sveta!
+            </div>
+        </header>
+
+        <div class="budget-summary">
+            <h2>💰 CELKOVÝ ROZPOČET</h2>
+            <div class="total-cost">3,847€ pre 2 ľudí</div>
+            <p>Všetko vrátane: Lety, ubytovanie, jedlo, party, prenájom lode, všetky extras!</p>
+        </div>
+
+        <div class="grid">
+            <!-- KONKRÉTNE LETY -->
+            <div class="card">
+                <h2><span class="emoji">✈️</span>Lety Wien → Ibiza PRIAME</h2>
+                <div class="price">238€ spiatočne na osobu (476€ spolu)</div>
+                
+                <div class="timeline">
+                    <h3>🛫 TAM - Pondelok 14. júl 2026</h3>
+                    <div class="timeline-item">
+                        <span class="time">14:35</span>
+                        <div class="route-detail">
+                            <strong>Ryanair FR7354</strong><br>
+                            Wien (VIE) → Ibiza (IBZ)<br>
+                            Čas letu: 2h 40min
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">17:15</span>
+                        <div class="route-detail">Pristátie v Ibize! 🌴</div>
+                    </div>
+                </div>
+                
+                <div class="timeline">
+                    <h3>🛬 SPÄŤ - Pondelok 28. júl 2026</h3>
+                    <div class="timeline-item">
+                        <span class="time">18:00</span>
+                        <div class="route-detail">
+                            <strong>Ryanair FR7355</strong><br>
+                            Ibiza (IBZ) → Wien (VIE)<br>
+                            Čas letu: 2h 45min
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">20:45</span>
+                        <div class="route-detail">Pristátie vo Viedni</div>
+                    </div>
+                </div>
+                
+                <a href="https://www.ryanair.com/sk/sk/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-07-14&dateIn=2026-07-28&isConnectedFlight=false&isReturn=true&discount=0&promoCode=&originIata=VIE&destinationIata=IBZ" class="btn btn-booking" target="_blank">🎯 REZERVOVAŤ RYANAIR</a>
+                <a href="https://www.austrian.com/lhg/sk/sk/o-d/cy-cy/vienna-ibiza" class="btn" target="_blank">Austrian Airlines (alternatíva)</a>
+            </div>
+
+            <!-- KOMPLETNÁ DOPRAVA OD HAJKA -->
+            <div class="card">
+                <h2><span class="emoji">🚌</span>Doprava Hajek → Ibiza</h2>
+                <div class="price">112€ na osobu (224€ spolu)</div>
+                
+                <div class="timeline">
+                    <h3>📍 PONDELOK 14. JÚLA 2026</h3>
+                    <div class="timeline-item">
+                        <span class="time">05:30</span>
+                        <div class="route-detail">
+                            Odchod z Hajka miesnym autobusom<br>
+                            → Žilina ŽST (15 min, 2€)
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">06:25</span>
+                        <div class="route-detail">
+                            <strong>Vlak EC 242</strong> Žilina → Wien Hbf<br>
+                            Čas: 4h 17min, Cena: 45€
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">10:42</span>
+                        <div class="route-detail">
+                            Príchod Wien Hbf<br>
+                            → Transfer na letisko (S7, 25min, 4.40€)
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">12:00</span>
+                        <div class="route-detail">Wien letisko - check-in</div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">14:35</span>
+                        <div class="route-detail">✈️ Let do Ibizy!</div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">19:00</span>
+                        <div class="route-detail">🏖️ Check-in do hotela v Ibize</div>
+                    </div>
+                </div>
+                
+                <a href="https://www.zssk.sk/" class="btn" target="_blank">ZSSK - Vlaky</a>
+                <a href="https://www.oebb.at/" class="btn" target="_blank">ÖBB - Wien lístky</a>
+            </div>
+
+            <!-- KONKRÉTNY HOTEL -->
+            <div class="card">
+                <h2><span class="emoji">🏨</span>THB Los Molinos - Adults Only</h2>
+                <div class="price">1,386€ za 14 nocí (99€/noc)</div>
+                
+                <ul class="features">
+                    <li><span class="check">✅</span> 2 oddelené postele - PERFEKTNE!</li>
+                    <li><span class="check">✅</span> Bazén s výhľadom na more</li>
+                    <li><span class="check">✅</span> SAUNA + Wellness + Gym</li>
+                    <li><span class="check">✅</span> Priamo pri pláži v centre Ibizy</li>
+                    <li><span class="check">✅</span> 5 minút pešo od prístavu a reštaurácií</li>
+                    <li><span class="check">✅</span> Raňajky + WiFi ZDARMA</li>
+                </ul>
+                
+                <p style="margin: 15px 0; font-style: italic;">
+                    "Perfektný balkon s výhľadom na more, veľká izba s oddelenými posteľami, skvelá poloha, milý personál." - Recenzie hostí
+                </p>
+                
+                <a href="https://www.booking.com/hotel/es/thb-los-molinos.sk.html?checkin=2026-07-14;checkout=2026-07-28;dest_id=-372490;dest_type=city;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1707256800;srpvid=0000;type=total;ucfs=1&" class="btn btn-booking" target="_blank">🎯 REZERVOVAŤ NA BOOKING</a>
+                <a href="https://www.thbhotels.com/en/hotel-los-molinos-ibiza/" class="btn" target="_blank">Oficiálna stránka hotela</a>
+            </div>
+
+            <!-- KONKRÉTNE FESTIVALY -->
+            <div class="card">
+                <h2><span class="emoji">🎉</span>Festivaly & Party (14-28 júl)</h2>
+                <div class="price">600€ (300€ na osobu)</div>
+                
+                <div class="timeline">
+                    <h3>🎵 GARANTOVANÉ EVENTY V NAŠOM OBDOBÍ:</h3>
+                    <div class="timeline-item">
+                        <span class="time">14/7</span>
+                        <div class="route-detail">
+                            <strong>PONDELOK</strong> - David Guetta FMIF @ Ushuaïa<br>
+                            Lístky: 65€/osoba
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">18/7</span>
+                        <div class="route-detail">
+                            <strong>PIATOK</strong> - Calvin Harris @ Ushuaïa<br>
+                            Lístky: 70€/osoba
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">21/7</span>
+                        <div class="route-detail">
+                            <strong>PONDELOK</strong> - David Guetta FMIF @ Ushuaïa<br>
+                            Lístky: 65€/osoba
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">22/7</span>
+                        <div class="route-detail">
+                            <strong>UTOROK</strong> - Calvin Harris @ Ushuaïa<br>
+                            Lístky: 70€/osoba
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">25/7</span>
+                        <div class="route-detail">
+                            <strong>PIATOK</strong> - Boat party + nočné kluby<br>
+                            Budget: 60€/osoba
+                        </div>
+                    </div>
+                </ul>
+                
+                <a href="https://www.theushuaiaexperience.com/en/club/events/fmif-david-guetta" class="btn btn-booking" target="_blank">🎯 David Guetta lístky</a>
+                <a href="https://ticketsibiza.com/clubs/ushuaia/" class="btn" target="_blank">Ushuaïa kalendár</a>
+            </div>
+
+            <!-- PRENÁJOM LODE -->
+            <div class="card">
+                <h2><span class="emoji">⛵</span>Prenájom lode (2 dni)</h2>
+                <div class="price">280€ za 2 dni</div>
+                
+                <ul class="features">
+                    <li><span class="check">✅</span> Máš licenciu → viac možností!</li>
+                    <li><span class="check">✅</span> Malá športová loď pre 2-4 ľudí</li>
+                    <li><span class="check">✅</span> ZAHRNUTÉ: Paddle board + šnorchlovacie masky</li>
+                    <li><span class="check">✅</span> Palivo: ~50€ extra</li>
+                    <li><span class="check">✅</span> Najlepšie miesta: Es Vedrà, Cala Comte, Formentera</li>
+                </ul>
+                
+                <div style="background: #f7fafc; padding: 15px; border-radius: 8px; margin: 15px 0;">
+                    <strong>Odporúčané dni na loď:</strong><br>
+                    • Streda 16/7 - Výlet k Es Vedrà<br>
+                    • Sobota 26/7 - Formentera beaches
+                </div>
+                
+                <a href="https://www.samboat.com/boat-rental/ibiza" class="btn btn-booking" target="_blank">🎯 SamBoat - Rezervácia</a>
+                <a href="https://www.getmyboat.com/boat-rental/Ibiza--Balearic-Islands--Spain/" class="btn" target="_blank">GetMyBoat možnosti</a>
+            </div>
+
+            <!-- JEDLO A PITIE -->
+            <div class="card">
+                <h2><span class="emoji">🍽️</span>Jedlo & Pitie (14 dní)</h2>
+                <div class="price">853€ spolu</div>
+                
+                <ul class="features">
+                    <li><span class="check">💰</span> Nákupy v supermarkete: 350€ (25€/deň)</li>
+                    <li><span class="check">🍽️</span> Reštaurácie občas: 350€ (25€/deň)</li>
+                    <li><span class="check">🍺</span> Alkohol z obchodu: 103€ (15€/deň)</li>
+                    <li><span class="check">🍹</span> Drinky v baroch: 50€ (1-2 denne)</li>
+                </ul>
+                
+                <div style="background: #e6fffa; padding: 15px; border-radius: 8px; margin: 15px 0;">
+                    <strong>💡 Tip na šetrenie:</strong><br>
+                    Nakúpte v Mercadona/Lidl, pred klubmi si dajte drink v hoteli!
+                </div>
+                
+                <h3 style="margin-top: 20px;">🥘 Musíte ochutnať:</h3>
+                <ul class="features">
+                    <li>Paella de Mariscos (morské plody)</li>
+                    <li>Sobrasada (ibizská klobása)</li>
+                    <li>Flaó (miestny cheesecake)</li>
+                    <li>Hierbas Ibicencas (miestny likér)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- DENNÝ ROZPIS -->
+        <div class="card" style="margin: 20px 0;">
+            <h2><span class="emoji">📅</span>Odporúčaný program (14-28 júla)</h2>
+            <div class="grid" style="margin-top: 20px;">
+                <div>
+                    <h3>🌅 Týždeň 1 (14-20 júla)</h3>
+                    <ul class="features">
+                        <li><strong>PO 14/7:</strong> Prílet, check-in, David Guetta party 🎉</li>
+                        <li><strong>UT 15/7:</strong> Relax na pláži, spoznávanie okolia</li>
+                        <li><strong>ST 16/7:</strong> Prenájom lode - výlet k Es Vedrà ⛵</li>
+                        <li><strong>ŠT 17/7:</strong> Dalt Vila (staré mesto UNESCO)</li>
+                        <li><strong>PI 18/7:</strong> Calvin Harris @ Ushuaïa 🔥</li>
+                        <li><strong>SO 19/7:</strong> Cala Comte sunset, San Antonio</li>
+                        <li><strong>NE 20/7:</strong> Relax, pláž, príprava na týždeň 2</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>🔥 Týždeň 2 (21-28 júla)</h3>
+                    <ul class="features">
+                        <li><strong>PO 21/7:</strong> David Guetta FMIF znovu! 🎵</li>
+                        <li><strong>UT 22/7:</strong> Calvin Harris Tuesday session</li>
+                        <li><strong>ST 23/7:</strong> Es Canar hippie market, relax</li>
+                        <li><strong>ŠT 24/7:</strong> Hï Ibiza alebo Amnesia večer</li>
+                        <li><strong>PI 25/7:</strong> Boat party + záverečná noc</li>
+                        <li><strong>SO 26/7:</strong> Druhý deň lode - Formentera! 🏖️</li>
+                        <li><strong>NE 27/7:</strong> Posledný deň, nákupy, balenie</li>
+                        <li><strong>PO 28/7:</strong> Odlet domov ✈️</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRAKTICKÉ INFO -->
+        <div class="card" style="margin: 20px 0;">
+            <h2><span class="emoji">💡</span>Praktické informácie & Tipy</h2>
+            <div class="grid" style="margin-top: 20px;">
+                <div>
+                    <h3>📋 Čo si zabaliť</h3>
+                    <ul class="features">
+                        <li>Pas platný min. 6 mesiacov</li>
+                        <li>Plavky (minimálne 2 kusy)</li>
+                        <li>Slnečné okuliare + krém</li>
+                        <li>Eleganté oblečenie do klubov</li>
+                        <li>Pohodlné topánky na chôdzu</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>💳 Platby a peniaze</h3>
+                    <ul class="features">
+                        <li>Euro je oficiálna mena ✅</li>
+                        <li>Karty všade akceptované</li>
+                        <li>Hotovosť v kluboch výhodnejšia</li>
+                        <li>Sprepitné 5-10% v reštauráciách</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- FINÁLNY SÚHRN -->
+        <div class="budget-summary">
+            <h2>🎯 KONEČNÝ ROZPOČET</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0; text-align: left;">
+                <div>
+                    <h3>✈️ Lety (Ryanair VIE-IBZ)</h3>
+                    <p>476€ (238€ × 2 osoby)</p>
+                </div>
+                <div>
+                    <h3>🚌 Doprava (Hajek-Wien)</h3>
+                    <p>224€ (112€ × 2 osoby)</p>
+                </div>
+                <div>
+                    <h3>🏨 Hotel (14 nocí)</h3>
+                    <p>1,386€ (THB Los Molinos)</p>
+                </div>
+                <div>
+                    <h3>🎉 Festivaly & Party</h3>
+                    <p>600€ (300€ × 2 osoby)</p>
+                </div>
+                <div>
+                    <h3>🍽️ Jedlo & Pitie</h3>
+                    <p>853€ (mix varenia/reštaurácií)</p>
+                </div>
+                <div>
+                    <h3>⛵ Prenájom lode</h3>
+                    <p>280€ (2 dni + palivo)</p>
+                </div>
+            </div>
+            <div class="total-cost">CELKOM: 3,819€</div>
+            <p>+ 200€ rezerva na extras = <strong>4,019€ finálne</strong></p>
+            <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
+                Stránka vytvorená Zarou ⭐ • Február 2026<br>
+                Všetky ceny sú aktuálne pre júl 2026 • Posledná aktualizácia: 6.2.2026
+            </p>
+        </div>
+    </div>
+</body>
+</html>
